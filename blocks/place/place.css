@@ -1,0 +1,15 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 460px auto;
+  grid-template-areas:
+  "title artist"
+  "image text"
+  "frame text";
+  margin: 0 0 80px;
+  grid-gap: 48px 40px;
+}
+
+.place:last-child{
+  margin-bottom: 0px;
+}

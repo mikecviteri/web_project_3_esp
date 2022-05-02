@@ -1,0 +1,17 @@
+.place__frame {
+  background-color: #0278FE;
+  border-radius: 4px;
+  height: 48px;
+  width: 355px;
+  color: #fff;
+  font-style: normal;
+  margin: 13px 20px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: frame;
+
+}
