@@ -14,14 +14,11 @@
   transition: opacity 0.3s linear;
   justify-content: center;
   grid-area: frame;
+  z-index: 1;
 }
 
 .frame:hover {
   background-color: #0063D2;
   cursor: pointer;
-
-}
-
-.cover > .frame {
-  width: 198px;
+  z-index: 1;
 }
