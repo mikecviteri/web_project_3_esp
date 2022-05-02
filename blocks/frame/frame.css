@@ -1,4 +1,4 @@
-.place__frame {
+.frame {
   background-color: #0278FE;
   border-radius: 4px;
   height: 48px;
@@ -14,4 +14,8 @@
   justify-content: center;
   grid-area: frame;
 
+}
+
+.cover > .frame {
+  width: 198px;
 }
