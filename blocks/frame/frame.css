@@ -11,8 +11,14 @@
   line-height: 1.35rem;
   display: flex;
   align-items: center;
+  transition: opacity 0.3s linear;
   justify-content: center;
   grid-area: frame;
+}
+
+.frame:hover {
+  background-color: #0063D2;
+  cursor: pointer;
 
 }
 
