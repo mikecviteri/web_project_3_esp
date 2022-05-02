@@ -5,7 +5,7 @@
   width: 355px;
   color: #fff;
   font-style: normal;
-  margin: 13px 20px;
+  margin: 13px 0px;
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.35rem;
@@ -21,4 +21,8 @@
   background-color: #0063D2;
   cursor: pointer;
   z-index: 1;
+}
+
+.cover > .frame {
+  width: 198px;
 }
