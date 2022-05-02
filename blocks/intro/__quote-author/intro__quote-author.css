@@ -1,8 +1,10 @@
 .intro__quote-author {
+  max-width: 720px;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 2.125rem;
-  width: calc(100% - (142px * 2));
   text-align: right;
-  margin: -42px 0 32px 0;
+  margin: 0;
+  margin-top: -20px;
 }
+
