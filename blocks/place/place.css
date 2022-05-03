@@ -13,3 +13,16 @@
 .place:last-child{
   margin-bottom: 0px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-rows: auto 340px auto;
+    grid-gap: 28px 20px;
+    margin-bottom: 72px;
+  }
+  .place:last-child{
+    margin-bottom: 0px;
+  }
+}
+
