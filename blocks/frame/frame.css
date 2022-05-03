@@ -15,6 +15,7 @@
   justify-content: center;
   grid-area: frame;
   z-index: 1;
+  text-decoration: none;
 }
 
 .frame:hover {
