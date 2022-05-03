@@ -9,12 +9,11 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .intro__title {
-    height: 232;
-    width: 720px;
-    align-items: flex-start;
-    text-align: start;
+    max-width: 288px;
+    font-size: 2rem;
+    line-height: 35px;
     margin: 0;
   }
 }

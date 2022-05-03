@@ -14,3 +14,11 @@
     line-height: 2.875rem;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    width: 288px;
+    font-size: 2.0rem;
+    line-height: 35px;
+  }
+}
