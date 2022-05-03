@@ -1,9 +1,9 @@
 /* Vendor */
 @import url('../vendor/normalize.css');
-@import url('../fonts/fonts.css');
+@import url('../fonts/Inter/inter.css');
 
-/* Page */
-@import url('../blocks/page/page.css');
+/* Root */
+@import url('../blocks/root/root.css');
 
 /* Content */
 @import url('../blocks/content/content.css');
