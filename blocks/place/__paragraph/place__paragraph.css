@@ -13,3 +13,19 @@
   }
 }
 
+@media screen and (max-width: 746px) {
+  .place__paragraph {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  .place__paragraph {
+    max-width: 579px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__paragraph:last-child {
+    margin-bottom: 0;
+  }
+}
